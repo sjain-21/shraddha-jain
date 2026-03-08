@@ -13,7 +13,7 @@ const projects = [
     title: "Vision Transformer",
     subtitle: "ViT from Scratch",
     description:
-      "Built a Vision Transformer (ViT) from scratch in PyTorch, implementing patch embedding, multi-head self-attention, and classification head for image recognition tasks.",
+      "Vision Transformer (ViT) from scratch in PyTorch, implementing patch embedding, multi-head self-attention, and classification head for image recognition.",
     tags: ["PyTorch", "ViT", "Transformers", "Computer Vision"],
     link: "https://github.com/sjain-21/vit/blob/main/ViT.ipynb",
   },
