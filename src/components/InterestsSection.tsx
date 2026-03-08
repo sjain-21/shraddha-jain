@@ -1,18 +1,12 @@
 import { motion } from "framer-motion";
-import { Brain, FlaskConical, Workflow } from "lucide-react";
+import { Brain, Workflow } from "lucide-react";
 
 const interests = [
   {
     icon: Brain,
-    title: "AI Agents",
+    title: "AI Agents & Evals",
     description:
-      "Building autonomous multi agent systems that reason, plan, and execute — pushing the boundaries of what LLMs can do in production.",
-  },
-  {
-    icon: FlaskConical,
-    title: "Evals",
-    description:
-      "Designing robust evaluation frameworks to measure, benchmark, and improve AI system performance in real-world settings.",
+      "Building autonomous multi agent systems that reason, plan, and execute — and designing robust evaluation frameworks to measure and improve their performance in real-world settings.",
   },
   {
     icon: Workflow,
@@ -34,7 +28,7 @@ const InterestsSection = () => {
         Currently <span className="italic text-gradient">exploring</span>
       </motion.h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {interests.map((item, i) => (
           <motion.div
             key={item.title}
