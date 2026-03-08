@@ -26,9 +26,6 @@ const EducationSection = () => {
           <p className="text-muted-foreground font-body mt-2">
             M.S. Computer Science · 2023 – 2025
           </p>
-          <p className="text-muted-foreground font-body text-sm mt-2">
-            NLP, Deep Learning, Large Language & Vision Modeling, Computer Vision, Predictive Analytics
-          </p>
         </motion.div>
 
         <motion.div
