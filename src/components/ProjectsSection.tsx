@@ -13,7 +13,7 @@ const projects = [
     title: "Vision Transformer",
     subtitle: "ViT from Scratch",
     description:
-      "Built a Vision Transformer (ViT) from scratch in PyTorch, implementing patch embedding, multi-head self-attention, and classification head for image recognition tasks.",
+      "Vision Transformer (ViT) from scratch in PyTorch, implementing patch embedding, multi-head self-attention, and classification head for image recognition.",
     tags: ["PyTorch", "ViT", "Transformers", "Computer Vision"],
     link: "https://github.com/sjain-21/vit/blob/main/ViT.ipynb",
   },
@@ -21,7 +21,7 @@ const projects = [
     title: "LLM Multi-Digit Tuning",
     subtitle: "Arithmetic Reasoning with LLaMA-2",
     description:
-      "Improved LLaMA-2-7B accuracy for 7-digit addition from 16% to 28% via in-context learning and prompt engineering.",
+      "Improved LLaMA-2-7B accuracy for 7-digit addition from 16% to 28% via in-context learning.",
     tags: ["LLaMA-2", "Fine-tuning", "Prompt Engineering"],
   },
   {
