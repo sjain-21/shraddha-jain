@@ -6,13 +6,13 @@ const interests = [
     icon: Brain,
     title: "AI Agents & Evals",
     description:
-      "Building autonomous multi agent systems that reason, plan, and execute — and designing robust evaluation frameworks to measure and improve their performance in real-world settings.",
+      "Building reliable autonomous multi-agent systems that reason, plan, and execute, with robust evaluation frameworks to measure, monitor, and improve their performance in real-world settings.",
   },
   {
     icon: Workflow,
     title: "Context Engineering",
     description:
-      "Crafting the right context at the right time - from retrieval strategies to prompt architecture - to unlock model capabilities.",
+      "Crafting the right context at the right time, through retrieval strategies, prompt architecture, and memory management - to unlock model capabilities.\n",
   },
 ];
 
