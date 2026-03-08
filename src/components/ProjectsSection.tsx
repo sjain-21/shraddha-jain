@@ -10,6 +10,14 @@ const projects = [
     tags: ["SAM", "Stable Diffusion", "LCM-LoRA", "T4 GPU"],
   },
   {
+    title: "Vision Transformer",
+    subtitle: "ViT from Scratch",
+    description:
+      "Built a Vision Transformer (ViT) from scratch in PyTorch, implementing patch embedding, multi-head self-attention, and classification head for image recognition tasks.",
+    tags: ["PyTorch", "ViT", "Transformers", "Computer Vision"],
+    link: "https://github.com/sjain-21/vit/blob/main/ViT.ipynb",
+  },
+  {
     title: "LLM Multi-Digit Tuning",
     subtitle: "Arithmetic Reasoning with LLaMA-2",
     description:
@@ -37,21 +45,33 @@ const ProjectsSection = () => {
         Things I've <span className="italic text-gradient">built</span>
       </motion.h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="flex gap-6 overflow-x-auto pb-6 snap-x snap-mandatory scrollbar-hide">
         {projects.map((project, i) => (
           <motion.div
             key={project.title}
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: i * 0.15, duration: 0.6 }}
-            className="group relative bg-card rounded-xl p-8 hover-lift border border-border hover:border-primary/30 transition-all duration-300"
+            transition={{ delay: i * 0.1, duration: 0.6 }}
+            className="group relative bg-card rounded-xl p-8 hover-lift border border-border hover:border-primary/30 transition-all duration-300 min-w-[320px] md:min-w-[380px] snap-start flex-shrink-0"
           >
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-accent rounded-t-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-            
-            <h3 className="text-xl font-display text-foreground mb-1">
-              {project.title}
-            </h3>
+
+            <div className="flex items-start justify-between">
+              <h3 className="text-xl font-display text-foreground mb-1">
+                {project.title}
+              </h3>
+              {project.link && (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  <ExternalLink size={18} />
+                </a>
+              )}
+            </div>
             <p className="text-sm font-body text-primary font-medium mb-4">
               {project.subtitle}
             </p>

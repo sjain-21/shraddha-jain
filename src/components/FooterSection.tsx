@@ -32,7 +32,7 @@ const FooterSection = () => {
             <Github size={20} />
           </a>
           <a
-            href="mailto:sj4391@nyu.edu"
+            href="mailto:21jain.shraddha@gmail.com"
             className="p-3 rounded-full bg-card border border-border text-foreground hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300"
             aria-label="Email"
           >

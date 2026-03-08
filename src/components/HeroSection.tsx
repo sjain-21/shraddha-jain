@@ -64,7 +64,7 @@ const HeroSection = () => {
             <Github size={22} />
           </a>
           <a
-            href="mailto:sj4391@nyu.edu"
+            href="mailto:21jain.shraddha@gmail.com"
             className="p-3 rounded-full bg-secondary text-secondary-foreground hover-lift hover:bg-primary hover:text-primary-foreground transition-colors duration-300"
             aria-label="Email"
           >
