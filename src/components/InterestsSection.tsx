@@ -4,15 +4,9 @@ import { Brain, FlaskConical, Workflow } from "lucide-react";
 const interests = [
   {
     icon: Brain,
-    title: "AI Agents",
+    title: "AI Agents & Evals",
     description:
-      "Building autonomous multi agent systems that reason, plan, and execute — pushing the boundaries of what LLMs can do in production.",
-  },
-  {
-    icon: FlaskConical,
-    title: "Evals",
-    description:
-      "Designing robust evaluation frameworks to measure, benchmark, and improve AI system performance in real-world settings.",
+      "Building autonomous multi agent systems that reason, plan, and execute — and designing robust evaluation frameworks to measure and improve their performance in real-world settings.",
   },
   {
     icon: Workflow,
