@@ -28,7 +28,7 @@ const InterestsSection = () => {
         Currently <span className="italic text-gradient">exploring</span>
       </motion.h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {interests.map((item, i) => (
           <motion.div
             key={item.title}
