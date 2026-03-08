@@ -12,50 +12,40 @@ const tidbits = [
 
 const PersonalSection = () => {
   return (
-    <section className="py-24 px-6 md:px-16 lg:px-24">
-      <motion.h2
-        initial={{ opacity: 0, y: 30 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        className="text-5xl md:text-7xl font-display mb-6"
-      >
-        Beyond the <span className="italic text-gradient">screen</span>
-      </motion.h2>
-
+    <section className="py-20 px-6 md:px-16 lg:px-24">
       <motion.p
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ delay: 0.1 }}
-        className="text-muted-foreground font-body text-lg mb-12 max-w-2xl"
+        className="text-muted-foreground font-body text-sm mb-8"
       >
-        Outdoorsy person at heart. Here's what I'm into when I'm not building things:
+        When I'm not building things —
       </motion.p>
 
-      <div className="flex flex-wrap gap-3">
+      <div className="flex flex-wrap gap-2.5">
         {tidbits.map((item, i) => (
-          <motion.div
+          <motion.span
             key={i}
-            initial={{ opacity: 0, scale: 0.9 }}
-            whileInView={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            transition={{ delay: i * 0.07, duration: 0.4 }}
-            className="group bg-card border border-border rounded-full px-5 py-2.5 flex items-center gap-2 hover:border-primary/40 hover:bg-primary/5 transition-all duration-300 cursor-default"
+            transition={{ delay: i * 0.06, duration: 0.4 }}
+            className="bg-muted/50 border border-border/50 rounded-full px-4 py-1.5 flex items-center gap-1.5 text-muted-foreground text-sm font-body"
           >
-            <span className="text-lg">{item.emoji}</span>
-            <span className="font-body text-sm text-foreground">{item.text}</span>
-          </motion.div>
+            <span className="text-sm">{item.emoji}</span>
+            {item.text}
+          </motion.span>
         ))}
       </div>
 
       <motion.p
-        initial={{ opacity: 0, y: 15 }}
-        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ delay: 0.6 }}
-        className="mt-10 text-muted-foreground font-body text-sm italic"
+        transition={{ delay: 0.5 }}
+        className="mt-6 text-muted-foreground/70 font-body text-xs"
       >
-        Got book or hiking trail recs? I'd love to hear them — <a href="mailto:21jain.shraddha@gmail.com" className="text-primary hover:underline">send them my way</a> ✨
+        Got book or trail recs? <a href="mailto:21jain.shraddha@gmail.com" className="underline hover:text-foreground transition-colors">Send them my way</a>
       </motion.p>
     </section>
   );
