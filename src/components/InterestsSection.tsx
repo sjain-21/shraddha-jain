@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Brain, FlaskConical, Workflow } from "lucide-react";
+import { Brain, Workflow } from "lucide-react";
 
 const interests = [
   {
