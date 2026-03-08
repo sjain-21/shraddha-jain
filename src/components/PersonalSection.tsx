@@ -2,10 +2,9 @@ import { motion } from "framer-motion";
 
 const tidbits = [
   { emoji: "🏸", text: "Badminton enthusiast" },
-  { emoji: "🎾", text: "Trying to pick up tennis" },
+  { emoji: "🎾", text: "Nadal fan, trying to pick up tennis" },
   { emoji: "🥾", text: "Love hiking" },
   { emoji: "🏎️", text: "Hoping Ferrari strategies finally work for Charles in 2026" },
-  { emoji: "🎾", text: "Lifelong Nadal fan" },
   { emoji: "📖", text: "Currently reading the Mistborn series" },
   { emoji: "❤️", text: "Recently loved: I Who Have Never Known Men" },
 ];
