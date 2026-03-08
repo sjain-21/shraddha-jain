@@ -6,7 +6,7 @@ const interests = [
     icon: Brain,
     title: "AI Agents",
     description:
-      "Building autonomous systems that reason, plan, and execute — pushing the boundaries of what LLMs can do in production.",
+      "Building autonomous multi agent systems that reason, plan, and execute — pushing the boundaries of what LLMs can do in production.",
   },
   {
     icon: FlaskConical,
