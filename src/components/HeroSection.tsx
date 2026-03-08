@@ -24,7 +24,6 @@ const HeroSection = () => {
         </motion.p>
 
         <h1 className="text-6xl md:text-8xl lg:text-9xl font-display leading-[1.05] mb-6">Shraddha
-Jain
           <br />
           <span className="text-gradient italic px-[21px]">Jain</span>
         </h1>
