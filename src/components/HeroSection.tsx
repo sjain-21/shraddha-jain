@@ -23,7 +23,7 @@ const HeroSection = () => {
           Hey, I'm
         </motion.p>
 
-        <h1 className="text-6xl md:text-8xl lg:text-9xl font-display leading-[0.9] mb-6">
+        <h1 className="text-6xl md:text-8xl lg:text-9xl font-display leading-[1.05] mb-6">
           Shraddha
           <br />
           <span className="text-gradient italic">Jain</span>
