@@ -53,7 +53,7 @@ const ProjectsSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: i * 0.1, duration: 0.6 }}
-            className="group relative bg-card rounded-xl p-8 hover-lift border border-border hover:border-primary/30 transition-all duration-300 min-w-[320px] md:min-w-[380px] snap-start flex-shrink-0"
+            className="group relative bg-card rounded-xl p-6 hover-lift border border-border hover:border-primary/30 transition-all duration-300 min-w-[calc(50%-12px)] max-w-[calc(50%-12px)] snap-start flex-shrink-0"
           >
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-accent rounded-t-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
