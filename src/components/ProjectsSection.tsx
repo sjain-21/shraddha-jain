@@ -8,6 +8,7 @@ const projects = [
     description:
       "Natural language image inpainting using SAM & Hugging Face Diffusers. Integrated LCM-LoRA with Stable Diffusion for 60% faster inference, cutting latency from 41s to 17s.",
     tags: ["SAM", "Stable Diffusion", "LCM-LoRA", "T4 GPU"],
+    link: "https://github.com/namanlalitnyu/RapidEdit",
   },
   {
     title: "Vision Transformer",
