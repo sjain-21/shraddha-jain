@@ -15,8 +15,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="flex items-center justify-between px-6 md:px-16 lg:px-24 h-16">
-        <a href="#" className="font-display text-xl italic text-foreground">
-          SJ
+        <a href="#" className="font-display text-xl italic text-foreground flex items-center gap-1.5">
+          <span>🦒</span> SJ
         </a>
 
         {/* Desktop */}
