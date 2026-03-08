@@ -18,7 +18,7 @@ const interests = [
     icon: Workflow,
     title: "Context Engineering",
     description:
-      "Crafting the right context at the right time — from retrieval strategies to prompt architecture — to unlock model capabilities.",
+      "Crafting the right context at the right time - from retrieval strategies to prompt architecture - to unlock model capabilities.",
   },
 ];
 

@@ -21,7 +21,7 @@ const projects = [
     title: "LLM Multi-Digit Tuning",
     subtitle: "Arithmetic Reasoning with LLaMA-2",
     description:
-      "Improved LLaMA-2-7B accuracy for 7-digit addition from 16% to 28% via in-context learning and prompt engineering.",
+      "Improved LLaMA-2-7B accuracy for 7-digit addition from 16% to 28% via in-context learning.",
     tags: ["LLaMA-2", "Fine-tuning", "Prompt Engineering"],
   },
   {
