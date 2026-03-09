@@ -34,15 +34,15 @@ const HeroSection = () => {
           transition={{ delay: 0.5, duration: 0.8 }}
           className="text-xl md:text-2xl font-body text-muted-foreground max-w-xl mt-6 leading-relaxed">
           
-          Forward Deployed AI Engineer crafting intelligent systems 
-          at the intersection of research and production.
+          Forward Deployed AI Engineer - I build agents, break models, and ship the evals that make both production-ready.
+
+        
         </motion.p>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.8, duration: 0.6 }}
-          className="flex gap-5 mt-10">
+        <motion.div initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.8, duration: 0.6 }}
+        className="flex gap-5 mt-10">
           
           <a
             href="https://www.linkedin.com/in/shraddhajain21/"
